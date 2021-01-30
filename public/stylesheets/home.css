@@ -1,0 +1,9 @@
+body {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://th.thgim.com/news/national/other-states/dhjk0j/article31285622.ece/ALTERNATES/FREE_660/PTI07-04-2020000057A");    
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-position: center;
+
+}

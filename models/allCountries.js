@@ -1,0 +1,31 @@
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
+const CountrySchema=Schema({
+id:String,
+rank:Number,
+Country:String,
+Continent:String,
+TwoLetterSymbol:String,
+ThreeLetterSymbol:String,
+Infection_Risk:Number,
+Case_Fatality_Rate:Number,
+Test_Percentage:Number,
+Recovery_Proporation:Number,
+TotalCases:Number,
+NewCases:Number,
+TotalDeaths:Number,
+NewDeaths:Number,
+TotalRecovered:Number,
+NewRecovered:Number,
+ActiveCases:Number,
+TotalTests:Number,
+Population:Number,
+one_Caseevery_X_ppl:Number,
+one_Deathevery_X_ppl:Number,
+one_Testevery_X_ppl:Number,
+Deaths_1M_pop:Number,
+Serious_Critical:Number,
+Tests_1M_Pop:Number,
+TotCases_1M_Pop:Number,
+})
+module.exports = mongoose.model('Country', CountrySchema);
